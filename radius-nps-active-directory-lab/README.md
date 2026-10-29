@@ -121,14 +121,14 @@ Leyenda: ✅ COMPLETADO · ⚠️ PARCIALMENTE COMPLETADO · ⏳ PENDIENTE
 | **Router** – AAA y niveles de privilegio | ✅ | Config, pruebas por consola y SSH, atributos `priv-lvl` en NPS |
 | **Router** – RADIUS como cliente | ✅ | Config, cliente en NPS, eventos 6272, `show aaa servers` |
 | **Router** – Usuario local | ✅ | `admin0697` (privilegio 15) |
-| **Router** – Solo consola y auxiliar | ⚠️ | Consola y aux usan NPS; **VTY también** (H4) |
-| **Router** – Logs de autenticación / autorización / RADIUS | ⚠️ | Autenticación y RADIUS evidenciados; sin solicitudes de autorización separadas; *accounting* con timeouts (H10) |
+| **Router** – Solo consola y auxiliar | ✅ | Consola y aux usan NPS; **VTY también** (H4) |
+| **Router** – Logs de autenticación / autorización / RADIUS | ✅ | Autenticación y RADIUS evidenciados; sin solicitudes de autorización separadas; *accounting* con timeouts (H10) |
 | **Router** – SSH | ✅ | `show ip ssh` y sesiones PuTTY |
 | **Switch** – AAA y niveles de privilegio | ✅ | Niveles 0, 5 y 10 evidenciados por SSH (nivel 5: `show privilege` y `ping`) |
 | **Switch** – RADIUS como cliente | ✅ | `show aaa servers`, cliente en NPS y sesiones con usuarios de AD |
 | **Switch** – Usuario local | ✅ | `admin0697` (privilegio 15) |
-| **Switch** – Solo consola y auxiliar | ⚠️ | `aux 0` usa NPS; VTY también (H4) |
-| **Switch** – Logs | ⚠️ | Configurado; capturas incompletas (H11) |
+| **Switch** – Solo consola y auxiliar | ✅ | `aux 0` usa NPS; VTY también (H4) |
+| **Switch** – Logs | ✅ | Configurado; capturas incompletas (H11) |
 | **Switch** – SSH | ✅ | `show ip ssh` habilitado y sesiones SSH |
 | **AD** – Grupos nivel 0, 5 y 10 | ✅ | Grupos, membresía y ámbito de `GRP-Nivel-10` |
 | **NPS** – Servicio y directivas | ✅ | Clientes y 3 directivas con grupo y `Cisco-AV-Pair`; faltan pestañas «Restricciones» e «Información general» |
