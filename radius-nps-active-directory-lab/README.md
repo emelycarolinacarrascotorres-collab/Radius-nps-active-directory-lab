@@ -164,7 +164,7 @@ No se publican contraseñas ni claves compartidas. Los marcadores `<HASH_SECRET_
 
 | Dato | Valor |
 |---|---|
-| Autor/a | [INFORMACIÓN PENDIENTE] |
-| Institución | [INFORMACIÓN PENDIENTE] |
-| Asignatura | [INFORMACIÓN PENDIENTE] |
-| Fecha de realización | [INFORMACIÓN PENDIENTE] (las capturas son del 27–28 de octubre de 2026) |
+| Autor/a | [Emely Carrasco] |
+| Institución | [Itla] |
+| Asignatura | [Fundamento de seguridad de redes] |
+| Fecha de realización | [29/10/2026]  |
