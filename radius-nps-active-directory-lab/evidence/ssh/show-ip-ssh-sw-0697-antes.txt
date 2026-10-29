@@ -1,0 +1,12 @@
+SW-0697#show ip ssh
+SSH Disabled - version 2.0
+%Please create RSA keys to enable SSH (and of atleast 768 bits for SSH v2).
+Authentication methods:publickey,keyboard-interactive,password
+Authentication Publickey Algorithms:x509v3-ssh-rsa,ssh-rsa
+Hostkey Algorithms:x509v3-ssh-rsa,ssh-rsa
+Encryption Algorithms:aes128-ctr,aes192-ctr,aes256-ctr
+MAC Algorithms:hmac-sha1,hmac-sha1-96
+Authentication timeout: 60 secs; Authentication retries: 3
+Minimum expected Diffie Hellman key size : 1024 bits
+IOS Keys in SECSH format(ssh-rsa, base64 encoded): NONE
+SW-0697#

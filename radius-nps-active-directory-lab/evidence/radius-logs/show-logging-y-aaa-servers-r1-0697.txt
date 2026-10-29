@@ -1,0 +1,41 @@
+R1-0697#show logging | include SEC_LOGIN
+*Oct 28 03:32:24.631: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: unknown] [Source: UNKNOWN] [localport: 0] [Reason: Login Authentication Failed] at 03:32:24 UTC Wed Oct 28 2026
+*Oct 28 03:32:26.631: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: unknown] [Source: UNKNOWN] [localport: 0] [Reason: Login Authentication Failed] at 03:32:26 UTC Wed Oct 28 2026
+*Oct 28 03:32:28.631: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: unknown] [Source: UNKNOWN] [localport: 0] [Reason: Login Authentication Failed] at 03:32:28 UTC Wed Oct 28 2026
+*Oct 28 03:32:46.795: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: admin0697] [Source: UNKNOWN] [localport: 0] [Reason: Login Authentication Failed] at 03:32:46 UTC Wed Oct 28 2026
+*Oct 28 03:34:29.867: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: admin0697] [Source: UNKNOWN] [localport: 0] [Reason: Login Authentication Failed] at 03:34:29 UTC Wed Oct 28 2026
+*Oct 28 03:34:44.475: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: admin0697] [Source: UNKNOWN] [localport: 0] [Reason: Login Authentication Failed] at 03:34:44 UTC Wed Oct 28 2026
+*Oct 28 03:41:10.619: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: usr-nivel0] [Source: UNKNOWN] [localport: 0] [Reason: Login Authentication Failed] at 03:41:10 UTC Wed Oct 28 2026
+*Oct 28 03:41:18.299: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: usr-nivel0] [Source: UNKNOWN] [localport: 0] at 03:41:18 UTC Wed Oct 28 2026
+R1-0697#show aaa servers
+
+RADIUS: id 1, priority 1, host 20.25.6.97, auth-port 1812, acct-port 1813
+     State: current UP, duration 2951s, previous duration 0s
+     Dead: total time 0s, count 1
+     Quarantined: No
+     Authen: request 14, timeouts 0, failover 0, retransmission 0
+             Response: accept 9, reject 5, challenge 0
+             Response: unexpected 0, server error 0, incorrect 0, time 18ms
+             Transaction: success 14, failure 0
+             Throttled: transaction 0, timeout 0, failure 0
+     Author: request 0, timeouts 0, failover 0, retransmission 0
+             Response: accept 0, reject 0, challenge 0
+             Response: unexpected 0, server error 0, incorrect 0, time 0ms
+             Transaction: success 0, failure 0
+             Throttled: transaction 0, timeout 0, failure 0
+     Account: request 30, timeouts 12, failover 0, retransmission 8
+             Request: start 9, interim 0, stop 8
+             Response: start 9, interim 0, stop 8
+             Response: unexpected 0, server error 0, incorrect 0, time 23ms
+             Transaction: success 18, failure 4
+             Throttled: transaction 0, timeout 0, failure 0
+     Elapsed time since counters last cleared: 50m
+     Estimated Outstanding Access Transactions: 0
+     Estimated Outstanding Accounting Transactions: 0
+     Estimated Throttled Access Transactions: 0
+     Estimated Throttled Accounting Transactions: 0
+     Maximum Throttled Transactions: access 0, accounting 0
+     Requests per minute past 24 hours:
+             high - 0 hours, 50 minutes ago: 9
+             low  - 0 hours, 48 minutes ago: 0
+             average: 0
