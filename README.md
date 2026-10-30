@@ -7,26 +7,25 @@
 ### Centralized Authentication & Access Control
 
 **Cisco IOS · Windows Server 2019 · Active Directory**
-
 <br>
-
-<a href="https://www.youtube.com/watch?v=AUIDbIU_O54">
-<img src="https://img.shields.io/badge/▶_WATCH_LAB_DEMONSTRATION-2563EB?style=for-the-badge&labelColor=111827" alt="Watch lab demonstration">
-</a>
-
 <br><br>
-
 <img src="https://img.shields.io/badge/CISCO-IOS-00A6FB?style=flat-square&logo=cisco&logoColor=white" alt="Cisco IOS">
 <img src="https://img.shields.io/badge/WINDOWS_SERVER-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows Server">
 <img src="https://img.shields.io/badge/ACTIVE_DIRECTORY-6366F1?style=flat-square" alt="Active Directory">
 <img src="https://img.shields.io/badge/RADIUS_NPS-8B5CF6?style=flat-square" alt="RADIUS NPS">
 <img src="https://img.shields.io/badge/SSH_V2-0D9488?style=flat-square" alt="SSH v2">
-
 <br><br>
-
 **EMELY CARRASCO**
 
 *Estudiante de Seguridad Informática · ITLA*
+
+<a href="https://www.youtube.com/watch?v=AUIDbIU_O54">
+<img src="https://img.shields.io/badge/▶_WATCH_LAB_DEMONSTRATION-2563EB?style=for-the-badge&labelColor=111827" alt="Watch lab demonstration">
+</a>
+
+
+
+---
 
 `DETECT` &nbsp; ◆ &nbsp; `ANALYZE` &nbsp; ◆ &nbsp; `DOCUMENT`
 
