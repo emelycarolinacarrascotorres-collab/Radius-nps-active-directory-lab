@@ -310,7 +310,7 @@ Las configuraciones publicadas son copias sanitizadas. Los hashes y la clave com
 - Los eventos 6272 y el estado de RADIUS se encuentran documentados.
 
 
-📄 [Resultados completos](docs/09-resultados.md) · [Problemas y soluciones](docs/10-problemas-y-soluciones.md)
+📄 [Resultados completos](docs/09-resultados.md) ·
 
 ---
 
