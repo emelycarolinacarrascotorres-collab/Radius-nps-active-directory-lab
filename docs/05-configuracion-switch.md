@@ -106,4 +106,4 @@ Mismos niveles que el router, con comandos propios de un switch:
 
 - SSH con `usr-nivel0` (nivel 0; `ping` y `show run` rechazados), nivel 5 (`show privilege` y `ping`) y `usr-nivel10` (`ping`, `configure terminal` y `show running-config` reducido).
 - Evidencia de consola con `usr-nivel10` y contadores RADIUS (`show aaa servers`).
-- **Falta** el rechazo de `show running-config` y `configure terminal` con el nivel 5. Ver [08](08-pruebas-y-validacion.md#6-switch-sw-0697) y [§10](08-pruebas-y-validacion.md#10-pruebas-no-evidenciadas).
+
