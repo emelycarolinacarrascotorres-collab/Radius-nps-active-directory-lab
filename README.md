@@ -300,7 +300,6 @@ Las configuraciones publicadas son copias sanitizadas. Los hashes y la clave com
 | [`evidence/ssh/`](evidence/ssh/) | Evidencias SSH |
 | [`evidence/radius-logs/`](evidence/radius-logs/) | Registros RADIUS |
 
-📄 [Inventario de evidencias](docs/12-estado-e-inventario.md#inventario-de-materiales)
 
 ## 📊 Resultados principales
 
