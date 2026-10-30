@@ -27,4 +27,4 @@ Implementar y documentar un esquema de AAA centralizado en un router y un switch
 
 ## Aclaración sobre el requisito «solo consola y auxiliar»
 
-El enunciado pide limitar la autenticación y autorización a consola y auxiliar, y también pide el servicio SSH (que usa las líneas VTY). En la configuración real, **consola, auxiliar y VTY** usan las mismas listas con NPS. Esta diferencia se registra como [H4](10-problemas-y-soluciones.md) y requiere que el autor indique la interpretación correcta.
+El enunciado pide limitar la autenticación y autorización a consola y auxiliar, y también pide el servicio SSH (que usa las líneas VTY). En la configuración real, **consola, auxiliar y VTY** usan las mismas listas con NPS. Esta diferencia se registra como y requiere que el autor indique la interpretación correcta.
