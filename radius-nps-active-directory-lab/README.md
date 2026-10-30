@@ -392,7 +392,6 @@ Los tres niveles están verificados en el router y en el switch. En este último
 
 Quedan por cerrar el puerto auxiliar, el respaldo local, los timeouts de accounting y la confirmación de que la configuración está guardada.
 
-📄 [Conclusiones completas](docs/11-conclusiones.md)
 
 ---
 
