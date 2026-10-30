@@ -174,7 +174,7 @@ Observaciones:
 - Los contadores se capturaron antes de las pruebas SSH al switch y pueden corresponder a la configuración anterior o a la actual de R1 (que luego cambió a un grupo de servidores nombrado).
 - La autenticación contra NPS responde sin *timeouts* en ambos equipos.
 - No hay solicitudes de **autorización** independientes (`Author request 0`) en ninguno; los niveles se aplicaron igualmente (T1–T3).
-- El *accounting* muestra **12 timeouts, 8 retransmisiones y 4 transacciones fallidas en ambos equipos**. Que las cifras coincidan sugiere un evento común (por ejemplo, NPS detenido o puerto 1813 bloqueado), pero la causa no está confirmada. Ver [H10](10-problemas-y-soluciones.md).
+- El *accounting* muestra **12 timeouts, 8 retransmisiones y 4 transacciones fallidas en ambos equipos**. Que las cifras coincidan sugiere un evento común (por ejemplo, NPS detenido o puerto 1813 bloqueado), pero la causa no está confirmada. 
 
 ## 8. Registros de autenticación (`SEC_LOGIN`)
 
@@ -191,7 +191,7 @@ Los tres fallos de `admin0697` son coherentes con que NPS rechaza la cuenta (no 
 
 **SW-0697:** 8 fallos entre 03:31:42 y 03:32:04 con el campo de usuario vacío; el filtro no muestra ninguna entrada de éxito.
 
-> **Capturas incompletas:** en R1 no aparecen los éxitos de `usr-nivel5` (03:42:29) y `usr-nivel10` (03:44:07) que sí se ven en las capturas de consola, y en SW no aparece el inicio de sesión de `usr-nivel10`. Conviene repetir `show logging` completo justo después de las pruebas ([H11](10-problemas-y-soluciones.md)).
+> **Capturas incompletas:** en R1 no aparecen los éxitos de `usr-nivel5` (03:42:29) y `usr-nivel10` (03:44:07) que sí se ven en las capturas de consola, y en SW no aparece el inicio de sesión de `usr-nivel10`. Conviene repetir `show logging` completo justo después de las pruebas 
 
 ## 9. Matriz nivel ↔ resultado
 
