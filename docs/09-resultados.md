@@ -15,11 +15,3 @@ Se resumen **solo** los resultados demostrados por las evidencias. El detalle y 
 | NPS – auditoría | Eventos 6272 («acceso concedido») para los tres usuarios | [Nivel 0](../images/nps/nps-evento-6272-usr-nivel0.png) · [Nivel 5](../images/nps/nps-evento-6272-usr-nivel5.png) · [Nivel 10](../images/nps/nps-evento-6272-usr-nivel10.png) |
 | NPS – directivas | Cada directiva exige un grupo de AD y envía `Cisco-AV-Pair = shell:priv-lvl=N` | [Directivas](07-configuracion-nps.md#directivas-de-red) |
 | Active Directory | Tres grupos `Global`/`Security`, cada uno con su usuario | [Membresía](../images/active-directory/ad-miembros-de-grupos.png) · [Ámbito](../images/active-directory/ad-ambito-de-los-grupos.png) |
-
-## Resultados no demostrados o con reservas
-
-- **Switch, nivel 5:** solo `show privilege` y `ping`; el inicio de sesión no es visible y no se probó el rechazo de `show running-config` ni de `configure terminal`.
-- **Puerto auxiliar** y **respaldo local** con NPS detenido: sin prueba. Los fallos de `admin0697` en R1 con NPS activo son coherentes con el comportamiento esperado de IOS, pero no prueban el respaldo.
-- **Accounting:** R1 y SW muestran 12 timeouts, 8 retransmisiones y 4 transacciones fallidas ([H10](10-problemas-y-soluciones.md)); existe un filtro de puerto UDP 1813 en el servidor, pero no se verificó que su regla esté habilitada.
-- **Registros en los equipos:** las salidas de `show logging` están incompletas ([H11](10-problemas-y-soluciones.md)); no hay registros de autorización separados (`Author request 0`).
-- **Configuración guardada** (`startup-config`): sin evidencia ([H15](10-problemas-y-soluciones.md)).
