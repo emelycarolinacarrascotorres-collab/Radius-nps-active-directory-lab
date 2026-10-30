@@ -85,10 +85,4 @@
 | [`evidence/radius-logs/show-logging-y-aaa-servers-r1-0697.txt`](../evidence/radius-logs/show-logging-y-aaa-servers-r1-0697.txt) | `show_logging__include_SEC_LOGIN_r1.txt` | `SEC_LOGIN` y `show aaa servers` de R1 | Salida incompleta (H11) |
 | [`evidence/radius-logs/show-logging-y-aaa-servers-sw-0697.txt`](../evidence/radius-logs/show-logging-y-aaa-servers-sw-0697.txt) | `show_logging__include_SEC_LOGIN_sw.txt` | Ídem para SW | Salida incompleta (H11) |
 
-### Material no incluido
 
-| Archivo original | Motivo |
-|---|---|
-| `Captura_de_pantalla_2026-10-28_002230.png` | Muestra el error de `netsh nps export`; no aporta evidencia del laboratorio (ver [07](07-configuracion-nps.md#exportación-de-la-configuración)) |
-| `Captura_de_pantalla_2026-10-28_002341.png` | Duplicado de la Fig. 24 |
-| `Captura_de_pantalla_2026-10-28_233015.png` | Sesión de nivel 0 en SW redundante con las Figs. 30 y 31 (mismos comandos y resultados) |
