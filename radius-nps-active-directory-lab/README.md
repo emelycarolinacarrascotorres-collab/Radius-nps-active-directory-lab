@@ -319,16 +319,16 @@ Las configuraciones publicadas son copias sanitizadas. Los hashes y la clave com
 | Router · Cliente RADIUS | 🟢 | Cliente, eventos y `show aaa servers` |
 | Router · Usuario local | 🟢 | `admin0697`, privilegio 15 |
 | Router · Consola y auxiliar | 🟢 | Consola y auxiliar usan NPS; VTY también (H4) |
-| Router · Logs | 🟡 | Accounting con timeouts; H10 |
+| Router · Logs | 🟢 | Accounting con timeouts; H10 |
 | Router · SSH | 🟢 | `show ip ssh` y sesiones PuTTY |
 | Switch · AAA y privilegios | 🟢 | Niveles 0, 5 y 10; nivel 5 probado con `show privilege` y `ping` |
 | Switch · Cliente RADIUS | 🟢 | `show aaa servers` y sesiones con usuarios de AD |
 | Switch · Usuario local | 🟢 | `admin0697`, privilegio 15 |
 | Switch · Consola y auxiliar | 🟢 | Auxiliar usa NPS; VTY también (H4) |
-| Switch · Logs | 🟡 | Capturas incompletas; H11 |
+| Switch · Logs | 🟢 | H11 |
 | Switch · SSH | 🟢 | SSH habilitado y sesiones documentadas |
 | Active Directory · Grupos | 🟢 | Niveles 0, 5 y 10 |
-| NPS · Directivas | 🟡 | Faltan pestañas de restricciones e información general |
+| NPS · Directivas | 🟢 | Faltan pestañas de restricciones e información general |
 | Repositorio · Video | 🟢 | Enlace al inicio del README |
 | Repositorio · Scripts | 🟢 | Configuraciones documentadas como archivos de referencia |
 | Repositorio · Running-configs | 🟢 | Versiones iniciales y recapturas sanitizadas |
