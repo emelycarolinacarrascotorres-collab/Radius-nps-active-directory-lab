@@ -32,8 +32,3 @@ Los tres grupos son de ámbito **Global** y categoría **Security**:
 
 Cada grupo tiene un único usuario y cada usuario pertenece solo al grupo de su nivel (según los resultados mostrados).
 
-## Datos no evidenciados
-
-- Directiva de contraseñas de dominio.
-
-Ver [docs/10](10-problemas-y-soluciones.md#datos-faltantes).
