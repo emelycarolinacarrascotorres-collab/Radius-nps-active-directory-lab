@@ -85,14 +85,3 @@ sequenceDiagram
 
 NPS registra en el Visor de eventos (Seguridad) los eventos **6272** (acceso concedido) y **6273** (acceso denegado). Las evidencias de 6272 para los tres usuarios están en [08](08-pruebas-y-validacion.md#3-eventos-de-nps). Los contadores RADIUS de los equipos están en [08](08-pruebas-y-validacion.md#7-contadores-radius-show-aaa-servers).
 
-## Puerto de *accounting* en el servidor (UDP 1813)
-
-![Filtro de puerto UDP 1813](../images/servidor/firewall-puerto-udp-1813.png)
-
-*`Get-NetFirewallPortFilter` muestra un filtro de puerto UDP 1813 en el servidor.*
-
-La captura demuestra que existe un filtro para ese puerto, pero **no** que la regla asociada esté habilitada ni que permita el tráfico entrante. Se relaciona con los *timeouts* de *accounting* ([H10](10-problemas-y-soluciones.md)).
-
-## Exportación de la configuración
-
-`netsh nps export` exige `exportPSK=YES`, lo que escribe los *shared secrets* **sin cifrar** en el XML. Por eso no se exporta ni se publica: la configuración se documenta con capturas.
