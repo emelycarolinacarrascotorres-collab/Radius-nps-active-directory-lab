@@ -309,30 +309,6 @@ Las configuraciones publicadas son copias sanitizadas. Los hashes y la clave com
 - NPS autentica contra Active Directory y entrega `priv-lvl` según el grupo.
 - Los eventos 6272 y el estado de RADIUS se encuentran documentados.
 
-## Estado de cumplimiento
-
-| Requisito | Estado | Observaciones |
-|:---|:---:|:---|
-| Router · AAA y privilegios | 🟢 | Configuración y pruebas documentadas |
-| Router · Cliente RADIUS | 🟢 | Cliente, eventos y `show aaa servers` |
-| Router · Usuario local | 🟢 | `admin0697`, privilegio 15 |
-| Router · Consola y auxiliar | 🟢 | Consola y auxiliar usan NPS; VTY también (H4) |
-| Router · Logs | 🟢 | Accounting con timeouts; H10 |
-| Router · SSH | 🟢 | `show ip ssh` y sesiones PuTTY |
-| Switch · AAA y privilegios | 🟢 | Niveles 0, 5 y 10; nivel 5 probado con `show privilege` y `ping` |
-| Switch · Cliente RADIUS | 🟢 | `show aaa servers` y sesiones con usuarios de AD |
-| Switch · Usuario local | 🟢 | `admin0697`, privilegio 15 |
-| Switch · Consola y auxiliar | 🟢 | Auxiliar usa NPS; VTY también (H4) |
-| Switch · Logs | 🟢 | H11 |
-| Switch · SSH | 🟢 | SSH habilitado y sesiones documentadas |
-| Active Directory · Grupos | 🟢 | Niveles 0, 5 y 10 |
-| NPS · Directivas | 🟢 | Faltan pestañas de restricciones e información general |
-| Repositorio · Video | 🟢 | Enlace al inicio del README |
-| Repositorio · Scripts | 🟢 | Configuraciones documentadas como archivos de referencia |
-| Repositorio · Running-configs | 🟢 | Versiones iniciales y recapturas sanitizadas |
-| Repositorio · Evidencias | 🟢 | Capturas, topología y diagramas Mermaid |
-
-**Leyenda:** 🟢 Completado según la evidencia documentada · 🟡 Parcial o con observaciones · 🔴 Pendiente.
 
 📄 [Resultados completos](docs/09-resultados.md) · [Problemas y soluciones](docs/10-problemas-y-soluciones.md)
 
@@ -383,15 +359,6 @@ La documentación distingue entre las funciones implementadas, las pruebas demos
 📄 [Inventario completo](docs/12-estado-e-inventario.md)
 
 ---
-
-# 11 · Conclusiones
-
-La evidencia demuestra que el router y el switch pueden autenticar a usuarios de Active Directory mediante NPS y que el nivel de privilegio, entregado mediante `Cisco-AV-Pair`, limita los comandos disponibles.
-
-Los tres niveles están verificados en el router y en el switch. En este último, el nivel 5 solo se verificó mediante `show privilege` y `ping`.
-
-Quedan por cerrar el puerto auxiliar, el respaldo local, los timeouts de accounting y la confirmación de que la configuración está guardada.
-
 
 ---
 
