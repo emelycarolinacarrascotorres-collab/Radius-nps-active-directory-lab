@@ -191,8 +191,6 @@ Los tres fallos de `admin0697` son coherentes con que NPS rechaza la cuenta (no 
 
 **SW-0697:** 8 fallos entre 03:31:42 y 03:32:04 con el campo de usuario vacío; el filtro no muestra ninguna entrada de éxito.
 
-> **Capturas incompletas:** en R1 no aparecen los éxitos de `usr-nivel5` (03:42:29) y `usr-nivel10` (03:44:07) que sí se ven en las capturas de consola, y en SW no aparece el inicio de sesión de `usr-nivel10`. Conviene repetir `show logging` completo justo después de las pruebas 
-
 ## 9. Matriz nivel ↔ resultado
 
 **R1-0697 (consola y SSH)**
