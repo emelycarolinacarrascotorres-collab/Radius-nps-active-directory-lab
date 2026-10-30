@@ -364,6 +364,9 @@ La documentación distingue entre las funciones implementadas, las pruebas demos
 <img src="https://img.shields.io/badge/BUILD-7C3AED?style=for-the-badge" alt="Build">
 <img src="https://img.shields.io/badge/SECURE-0D9488?style=for-the-badge" alt="Secure">
 
+
+---
+
 ## 👩‍💻 Emely Carrasco
 
 **Estudiante de Seguridad Informática · ITLA**
