@@ -213,15 +213,3 @@ Los tres fallos de `admin0697` son coherentes con que NPS rechaza la cuenta (no 
 | `ping` | rechazado ✅ | 5/5 ✅ (a la IP del propio switch) | 5/5 ✅ |
 | `show running-config` | rechazado ✅ | sin prueba | aceptado, salida reducida ✅ |
 | `configure terminal` | — | sin prueba | aceptado ✅ |
-
-## 10. Pruebas no evidenciadas
-
-- **Switch, nivel 5:** inicio de sesión visible y rechazo de `show running-config` y `configure terminal`.
-- Acceso por el puerto **auxiliar** de cualquier equipo.
-- Respaldo **local** con NPS detenido.
-- `show ip interface brief` y `traceroute` en el nivel 5.
-- `show logging` completo y registros de *accounting* en NPS.
-- Causa de los eventos 6273 y del *Access denied* de la sesión [T18](#6-switch-sw-0697).
-- Que la regla de firewall de UDP 1813 esté habilitada y permita el tráfico ([T21](#1-resumen)).
-- Que la configuración esté **guardada** en `startup-config` ([H15](10-problemas-y-soluciones.md)).
-
