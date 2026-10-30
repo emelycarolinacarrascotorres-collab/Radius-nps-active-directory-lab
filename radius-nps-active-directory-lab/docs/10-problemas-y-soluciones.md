@@ -52,8 +52,3 @@ Las versiones anteriores están en [`configs/router/historial/`](../configs/rout
 ### Ya resueltos
 
 Versión de Windows Server e IP del servidor · pertenencia a grupos · condiciones y atributos de las directivas NPS · SSH en el switch · `show aaa servers` · `running-config` actuales de R1 y SW · `ping` con nivel 5 · `configure terminal` con nivel 10 · sesiones SSH al switch con nivel 0 y 10 · scripts (los `running-config`, por indicación del autor) · enlace del video · ámbito de los tres grupos de AD · niveles 0, 5 y 10 en el switch · recaptura de ambos `running-config`.
-
-## Cómo re-documentar tras nuevos cambios
-
-1. Capture de nuevo `show running-config`, `show ip ssh` y las pruebas afectadas.
-2. Sustituya los archivos en `configs/` (sanitizándolos) y actualice la tabla de [README](../README.md#-estado-de-cumplimiento-de-los-requisitos).
