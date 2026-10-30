@@ -104,7 +104,3 @@ flowchart LR
 | 10 | `configure` / `configure terminal`, `show running-config`, `show logging`; modo `interface` y, dentro de él, `shutdown`, `ip`, `ip address`, `description` |
 
 Los niveles 5 y 10 además conservan los comandos que IOS deja por defecto en el nivel 1 (visible en el listado de `?` de las capturas del nivel 5 y 10).
-
-## Observaciones
-
-Ver [H4](10-problemas-y-soluciones.md): las líneas VTY también usan NPS. Los hallazgos H2 (sin `enable secret`) y H5 (sin `login block-for`) de la versión anterior quedaron **corregidos**.
