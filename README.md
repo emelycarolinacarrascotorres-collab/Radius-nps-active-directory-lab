@@ -358,10 +358,6 @@ La documentación distingue entre las funciones implementadas, las pruebas demos
 
 📄 [Inventario completo](docs/12-estado-e-inventario.md)
 
----
-
----
-
 <div align="center">
 
 <img src="https://img.shields.io/badge/LEARN-2563EB?style=for-the-badge" alt="Learn">
