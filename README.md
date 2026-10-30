@@ -265,7 +265,6 @@ Los comandos permitidos dependen de la configuración efectiva de cada dispositi
 | `07` | [Configuración de NPS](docs/07-configuracion-nps.md) | Clientes y políticas |
 | `08` | [Pruebas y validación](docs/08-pruebas-y-validacion.md) | Verificaciones técnicas |
 | `09` | [Resultados](docs/09-resultados.md) | Resultados obtenidos |
-| `10` | [Estado e inventario](docs/12-estado-e-inventario.md) | Archivos y estado del proyecto |
 
 ---
 
