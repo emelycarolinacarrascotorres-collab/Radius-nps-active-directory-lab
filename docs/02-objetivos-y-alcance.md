@@ -24,7 +24,6 @@ Implementar y documentar un esquema de AAA centralizado en un router y un switch
 - NPS: dos clientes RADIUS y tres directivas de red.
 - Pruebas por consola y SSH, eventos de NPS y contadores RADIUS.
 
-**No se documenta** (no hay evidencia en los materiales entregados): scripts de automatización adicionales (según el autor, los scripts del laboratorio son los `running-config`; ver [scripts/](../scripts/README.md)), exportación de la configuración de NPS (ver [07](07-configuracion-nps.md#exportación-de-la-configuración)), redundancia de servidores RADIUS, ni la prueba del puerto auxiliar y del respaldo local.
 
 ## Aclaración sobre el requisito «solo consola y auxiliar»
 
