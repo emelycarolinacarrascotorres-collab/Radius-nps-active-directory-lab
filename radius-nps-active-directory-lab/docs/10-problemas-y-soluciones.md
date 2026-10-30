@@ -37,15 +37,15 @@ Las versiones anteriores están en [`configs/router/historial/`](../configs/rout
 
 | # | Dato | Dónde debe ir |
 |---|---|---|
-| 1 | ~~Video demostrativo~~ **Resuelto**: enlace en el README | README (inicio) |
-| 2 | ~~Scripts~~ **Resuelto:** por indicación del autor, los scripts son los `running-config` | [`scripts/`](../scripts/README.md) |
+| 1 | Video Demostrativo : enlace en el README | README (inicio) |
+| 2 | Scripts:  los `running-config` | [`scripts/`](../scripts/README.md) |
 | 3 | Evidencia de `startup-config` en R1 y SW (H15) | `configs/` |
 | 4 | SW con `usr-nivel5`: inicio de sesión visible y rechazo de `show running-config` y `configure terminal` | docs/08 |
 | 5 | Pestañas «Información general» y «Restricciones» de las directivas NPS y directivas de solicitud de conexión | docs/06 |
-| 6 | ~~Ámbito de `GRP-Nivel-0` y `GRP-Nivel-5`~~ **Resuelto** | docs/06 |
+| 6 | Ámbito de GRP-Nivel-0 y GRP-Nivel-5  | docs/06 |
 | 7 | Emulador utilizado | docs/01 |
 | 8 | Prueba del puerto auxiliar y del respaldo local | docs/07 |
-| 9 | `show logging` completo y registros de *accounting* en NPS | docs/07 |
+| 9 | show logging completo y registros de *accounting* en NPS | docs/07 |
 | 10 | Detalle de los eventos 6273 | docs/07 |
 | 11 | Autoría y fecha para el README | README |
 
