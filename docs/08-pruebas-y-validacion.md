@@ -169,12 +169,6 @@ Configuración **reducida de 706 bytes**, frente a los 5810 bytes de la configur
 | *Accounting*: transacciones éxito / fallo | 18 / 4 | 4 / 4 |
 | Contadores acumulados | 50 min | 54 min |
 
-Observaciones:
-
-- Los contadores se capturaron antes de las pruebas SSH al switch y pueden corresponder a la configuración anterior o a la actual de R1 (que luego cambió a un grupo de servidores nombrado).
-- La autenticación contra NPS responde sin *timeouts* en ambos equipos.
-- No hay solicitudes de **autorización** independientes (`Author request 0`) en ninguno; los niveles se aplicaron igualmente (T1–T3).
-- El *accounting* muestra **12 timeouts, 8 retransmisiones y 4 transacciones fallidas en ambos equipos**. Que las cifras coincidan sugiere un evento común (por ejemplo, NPS detenido o puerto 1813 bloqueado), pero la causa no está confirmada. 
 
 ## 8. Registros de autenticación (`SEC_LOGIN`)
 
@@ -189,7 +183,7 @@ Observaciones:
 
 Los tres fallos de `admin0697` son coherentes con que NPS rechaza la cuenta (no existe en AD) y que IOS **no recurre al método local ante un rechazo**, solo si el servidor no responde. El respaldo local con NPS inaccesible **no se ha probado**.
 
-**SW-0697:** 8 fallos entre 03:31:42 y 03:32:04 con el campo de usuario vacío; el filtro no muestra ninguna entrada de éxito.
+
 
 ## 9. Matriz nivel ↔ resultado
 
