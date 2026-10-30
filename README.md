@@ -356,16 +356,17 @@ La documentación distingue entre las funciones implementadas, las pruebas demos
 └── demo/
 ```
 
-📄 [Inventario completo](docs/12-estado-e-inventario.md)
 
 <div align="center">
+
+---
 
 <img src="https://img.shields.io/badge/LEARN-2563EB?style=for-the-badge" alt="Learn">
 <img src="https://img.shields.io/badge/BUILD-7C3AED?style=for-the-badge" alt="Build">
 <img src="https://img.shields.io/badge/SECURE-0D9488?style=for-the-badge" alt="Secure">
 
 
----
+
 
 ## 👩‍💻 Emely Carrasco
 
